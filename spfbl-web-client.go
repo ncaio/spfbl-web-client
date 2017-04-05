@@ -69,6 +69,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	//	LOOP
 	//
 	for i := range saida {
+		i = len(saida) - 1 - i
 		field := strings.Fields(saida[i])
 		if strings.Contains(saida[i], hostname) {
 			date := (strings.Replace(field[0], "T", " hora: ", -1))
