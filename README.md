@@ -4,7 +4,7 @@ Simples interface para gerenciamento SPFBL. A ideia é ter uma interface web que
 
 # Instalação
 
-**OBS: Este programa deve ser instalado no host onde o SPFBL é executado ou ter acesso direto aos arquivos de LOG**
+**OBS: Este programa deve ser instalado e executado no host onde se encontra o SPFBL ou ter acesso direto aos arquivos de LOG**
 
 **Clone:**
 
