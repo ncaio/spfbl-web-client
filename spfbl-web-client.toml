@@ -1,0 +1,11 @@
+[org]
+organizationname = "Nome da organizacao"
+organizationdescription = "Breve descritivo da instituicao"
+[server]
+hostname = "hostname.domain.tld"
+host = "localhost"
+port = "9877"
+[mail]
+admin = "postmaster@domain.tld"
+[log]
+path = "/var/log/spfbl/"
