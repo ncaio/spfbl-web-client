@@ -23,7 +23,9 @@ path = "/var/log/spfbl/"
 ```
 A principio, as variáveis "hostname" e "path" são as principais e as únicas que requerem modificação. 
 Onde:
+
 hostname = a variável hostname existente em seu arquivo spfbl.conf
+
 path = Caminho dos logs SPFBL
 
 # Instalação
