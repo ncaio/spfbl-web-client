@@ -41,13 +41,13 @@ git clone https://github.com/ncaio/spfbl-web-client.git
 
 ```
 cd /etc
-ln -s /caminho/spfbl-web-client/spfbl-web-client.toml
+ln -s /caminho/spfbl-web-client/spfbl-web-client.toml painel-spfbl.toml
 ```
 
 **ou**
 
 ```
-cp spfbl-web-client.toml /etc
+cp spfbl-web-client.toml /etc/painel-spfbl.toml
 ```
 
 **Execução:**
