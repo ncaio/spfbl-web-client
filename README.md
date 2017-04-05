@@ -4,29 +4,31 @@ Simples interface para gerenciamento SPFBL. A ideia é ter uma interface web que
 
 # Instalação
 
-OBS: Este programa deve ser instalado no host onde o SPFBL é executado ou ter acesso direto aos arquivos de LOG
+**OBS: Este programa deve ser instalado no host onde o SPFBL é executado ou ter acesso direto aos arquivos de LOG**
 
-Clone:
+**Clone:**
 
 ```
 git clone https://github.com/ncaio/spfbl-web-client.git
 ```
-Arquivo de configuração:
+**Arquivo de configuração:**
 
 ```
 cd /etc
 ln -s /caminho/spfbl-web-client/spfbl-web-client.toml
 ```
-ou
+
+**ou**
+
 ```
 cp spfbl-web-client.toml /etc
 ```
 
-Execução:
+**Execução:**
 
 ./spfbl-web-client
 
-Acessando interface:
+**Acessando interface:**
 
 http://hostnameoripaddress:9000
 
@@ -41,7 +43,7 @@ go get github.com/pelletier/go-toml
 
 É preciso que o arquivo /etc/painel-spfbl.toml exista e seja acessível pelo spfbl-web-client
 
-Exemplo de arquivo:
+**Exemplo de arquivo:**
 
 ```
 [org]
