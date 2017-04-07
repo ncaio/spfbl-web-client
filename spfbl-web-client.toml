@@ -9,3 +9,5 @@ port = "9877"
 admin = "postmaster@domain.tld"
 [log]
 path = "/var/log/spfbl/"
+[painel]
+port = ":9000"
