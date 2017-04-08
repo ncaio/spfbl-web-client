@@ -2,6 +2,27 @@
 
 Simples interface para gerenciamento SPFBL. A ideia é ter uma interface web que proporcione ao usuário final (destinatário) o gerenciamento de suas mensagens.
 
+# Instalação
+
+**OBS: Este programa deve ser instalado e executado no host onde se encontra o SPFBL ou ter acesso direto aos arquivos de LOG**
+
+**Clone:**
+
+```
+git clone https://github.com/ncaio/spfbl-web-client.git
+```
+**Arquivo de configuração:**
+
+```
+cd /etc
+ln -s /caminho/spfbl-web-client/spfbl-web-client.toml painel-spfbl.toml
+```
+
+**ou**
+
+```
+cp spfbl-web-client.toml /etc/painel-spfbl.toml
+```
 # Arquivo de configuração
 
 É preciso que o arquivo /etc/painel-spfbl.toml exista e seja acessível pelo spfbl-web-client
@@ -27,28 +48,6 @@ Onde:
 hostname = a variável hostname existente em seu arquivo spfbl.conf
 
 path = Caminho dos logs SPFBL
-
-# Instalação
-
-**OBS: Este programa deve ser instalado e executado no host onde se encontra o SPFBL ou ter acesso direto aos arquivos de LOG**
-
-**Clone:**
-
-```
-git clone https://github.com/ncaio/spfbl-web-client.git
-```
-**Arquivo de configuração:**
-
-```
-cd /etc
-ln -s /caminho/spfbl-web-client/spfbl-web-client.toml painel-spfbl.toml
-```
-
-**ou**
-
-```
-cp spfbl-web-client.toml /etc/painel-spfbl.toml
-```
 
 **Execução:**
 
